@@ -1,4 +1,6 @@
+import Script from "next/script";
 import Head from "next/head";
+
 import CoreFeatures from "../components/CoreFeatures";
 import CoreFeaturesBottom from "../components/CoreFeaturesBottom";
 import Footer from "../components/Footer";
@@ -44,6 +46,12 @@ export default function Home() {
       <Payment />
 
       <Footer />
+
+      <Script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossOrigin="anonymous"
+      ></Script>
     </div>
   );
 }
